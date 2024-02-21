@@ -161,3 +161,4 @@ widgetsnbextension==4.0.9
 wsproto==1.2.0
 xhtml2pdf==0.2.11
 zipp==3.17.0
+openpyxl
