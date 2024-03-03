@@ -70,8 +70,8 @@ for uploaded_file in uploaded_files:
 
         if re.search("ora_data",uploaded_file.name,re.IGNORECASE):
             df_ora_data = pd.read_excel(uploaded_file)
-            cols = list(df_ora_data.iloc[-2, :])
-            df_ora_data.columns = cols
+            #cols = list(df_ora_data.iloc[-2, :])
+            df_ora_data.columns = cols_ora_data
             files_set.add("ora_data")
 
         
